@@ -1,0 +1,24 @@
+{
+  "name": "turbo-octo-engine",
+  "version": "1.0.0",
+  "description": "A project made to experiment with CI/CD with AWS CodePipeline",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MontgomeryWatts/turbo-octo-engine.git"
+  },
+  "author": "Montgomery Watts",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MontgomeryWatts/turbo-octo-engine/issues"
+  },
+  "homepage": "https://github.com/MontgomeryWatts/turbo-octo-engine#readme",
+  "devDependencies": {
+    "@types/jest": "^27",
+    "jest": "^27",
+    "ts-jest": "^27",
+    "typescript": "^4.9.5"
+  }
+}

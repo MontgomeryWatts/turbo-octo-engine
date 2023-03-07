@@ -1,7 +1,8 @@
 version: 0.2
 
 phases:
-  install:
+  pre_build:
     commands:
-      - echo Entered install phase...
-      - apt-get update -y
+      - echo Entered pre-build phase...
+      - yarn
+      - yarn test
